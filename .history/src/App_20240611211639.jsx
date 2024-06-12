@@ -3,7 +3,7 @@ export default function App() {
 
   return (
     <>
-      <Calendar/>
+      <p>Calendary</p>
     </>
   )
 }
