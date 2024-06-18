@@ -1,7 +1,7 @@
 export default function Calendar(){
     return (
         <div className="flex flex-col items-center bg-gradient-to-r from-[#25206c] to-[#eb1010eb]">
-            <h1 className="font-extrabold my-4">February 2024</h1>
+            <h1 className="font-extrabold my-4">February 2022</h1>
             <p>Horario y Rutas del Gas</p>
             <ul className="grid grid-cols-7 flex-wrap list-none">
                 <li className="flex size-40 m-1 flex-col rounded p-1 font-light box-border bg-[#ffffff40] shadow-xl border-1 border-solid"><time className="text-3xl mb-4 font-medium" datetime="2022-02-01">1</time></li>
