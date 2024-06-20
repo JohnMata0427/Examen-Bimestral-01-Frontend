@@ -1,4 +1,5 @@
 export default function Header() {
+
     return (
         <header class='flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
             <div class='flex flex-wrap items-center justify-between gap-5 w-full'>
@@ -25,24 +26,24 @@ export default function Header() {
                     </a>
                     </li>
                     <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'>
-                    <a href='#'
+                    <a href='#home'
                         class='hover:text-[#007bff] text-[#007bff] block font-semibold text-[15px]'>Inicio</a>
                     </li>
-                    <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><a href='javascript:void(0)'
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><a href='#calendar'
                         class='hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Calendario</a>
                     </li>
-                    <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><a href='javascript:void(0)'
+                    <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><a href='#contact'
                         class='hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]'>Contacto</a>
                     </li>
                 </ul>
                 </div>
 
                 <div class='flex max-lg:ml-auto space-x-3'>
-                <button
-                    class='px-4 py-2 text-sm rounded-full font-bold text-white border-2 border-[#007bff] bg-[#007bff] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#007bff]'>Login</button>
-                <button
-                    class='px-4 py-2 text-sm rounded-full font-bold text-white border-2 border-[#007bff] bg-[#007bff] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#007bff]'>Sign
-                    up</button>
+                <a
+                    class='px-4 py-2 text-sm rounded-full font-bold text-white border-2 border-[#007bff] bg-[#007bff] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#007bff]' href={`/login`}>Login</a>
+                <a
+                    class='px-4 py-2 text-sm rounded-full font-bold text-white border-2 border-[#007bff] bg-[#007bff] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#007bff]' href={`/register`}>Sign
+                    up</a>
 
                 <button id="toggleOpen" class='lg:hidden'>
                     <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
