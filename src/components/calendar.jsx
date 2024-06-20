@@ -28,8 +28,8 @@ export default function Calendar(){
                 <li className="flex size-40 m-1 flex-col rounded p-1 font-light box-border bg-[#ffffff40] shadow-xl border-1 border-solid">
                     <time className="text-3xl mb-4 font-medium" datetime={`2022-06-${day}`}>{day}</time>
                     {
-                    data.filter((item) => {
-                        const date = new Date(item.startsAt);
+                    data.filter((tanker) => {
+                        const date = new Date(tanker.startsAt);
                         return date.getDate() === day;
                     })
                     .map((item) => {
